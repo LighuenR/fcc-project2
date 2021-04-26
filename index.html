@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FreeCodeCamp Survey Form</title>
+
+
+</head>
+ 
+
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+     </header>
+    /
+     <div class="container">
+    <form id="survey-form" action="">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="number" id="number-label">Age</label>
+        <input type="number" min="5" max="100" id="number" placeholder="Age">
+        <br />
+        <label for="Select">Which option best describes your current role?</label>
+        <br /> 
+        
+        <select name="Select" id="dropdown">
+            <option value="Student">Student</option>
+            <option value="Full time job">Full time job</option>
+            <option value="Full time learner">Full time learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>       
+        </select>
+           
+        <br /> 
+         <label for="options"> Would you recommend freeCodeCamp to a friend?</label>
+         <input type="radio" name="options"> Sure
+         <input type="radio" name="options"> Definitely
+         <input type="radio" name="options"> Maybe
+        <br />
+         
+         <label for="Select"></label>
+         <select name="Select" id="dropdown">
+            <option value="Student">Student</option>
+            <option value="Full time jo">Full time job</option>
+            <option value="Full time learner">Full time learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+         </select>
+         
+         <label for="checkbox">Chose wisly</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> Lorem, ipsum 1</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> Lorem, ipsum 2</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> Onsdasd e</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> Onasdasde</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> On asd asde</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> O asdasne</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> Od adsasne</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> Odasd ane</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox"> Osdasdne</label>
+          <label for="checkbox"><input type="checkbox" name="checkbox">asdasdasd  </label>
+
+
+          <textarea name="textarea" id="texto" rows="10" cols="50" placeholder="asda"></textarea>
+
+
+        <input type="submit" value="Submit" id="submit">
+
+    </form>
+
+</div>
+</body>
+
+</html>
