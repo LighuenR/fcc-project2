@@ -1,81 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Fullscreen Background Image Slideshow with CSS3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
+    <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
     <link rel="stylesheet" href="style.css">
-    <title>FreeCodeCamp Survey Form</title>
-
-
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 </head>
- 
 
-<body>
-    <header>
-        <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
-     </header>
-    /
-     <div class="container">
-    <form id="survey-form" action="">
-        <label for="name" id="name-label">Name</label>
-        <input type="text" id="name" placeholder="Enter your name">
+<body id="page">
+    <ul class="cb-slideshow">
+        <li><span>Image 01</span>
+            <div>
+                <h3>For sale</h3>
+            </div>
+        </li>
+        <li><span>Image 02</span>
+            <div>
+                <h3>For sale</h3>
+            </div>
+        </li>
+        <li><span>Image 03</span>
+            <div>
+                <h3>For sale</h3>
+            </div>
+        </li>
+        <li><span>Image 04</span>
+            <div>
+                <h3>For sale</h3>
+            </div>
+        </li>
+        <li><span>Image 05</span>
+            <div>
+                <h3>For salee</h3>
+            </div>
+        </li>
+        <li><span>Image 06</span>
+            <div>
+                <h3>For sale</h3>
+            </div>
+        </li>
+    </ul>
+    <div class="container1">
+        <h1 id="title">Best houses for sale</h1>
+        <p id="description">Escribir algo</p>
+        <form id="survey-form">
+            <label for="name" id="name-label"> Name </label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="email" id="email-label"> Email </label>
+            <input type="email" id="email" placeholder="Enter your Email">
+            <label for="number" id="number-label"> Rooms </label>
+            <input type="number" id="number" min="1" max="5" placeholder="Rooms">
 
-        <label for="email" id="email-label">Email</label>
-        <input type="email" id="email" placeholder="Enter your email">
+            <select name="" id="dropdown">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
 
-        <label for="number" id="number-label">Age</label>
-        <input type="number" min="5" max="100" id="number" placeholder="Age">
-        <br />
-        <label for="Select">Which option best describes your current role?</label>
-        <br /> 
-        
-        <select name="Select" id="dropdown">
-            <option value="Student">Student</option>
-            <option value="Full time job">Full time job</option>
-            <option value="Full time learner">Full time learner</option>
-            <option value="Prefer not to say">Prefer not to say</option>
-            <option value="Other">Other</option>       
-        </select>
-           
-        <br /> 
-         <label for="options"> Would you recommend freeCodeCamp to a friend?</label>
-         <input type="radio" name="options"> Sure
-         <input type="radio" name="options"> Definitely
-         <input type="radio" name="options"> Maybe
-        <br />
-         
-         <label for="Select"></label>
-         <select name="Select" id="dropdown">
-            <option value="Student">Student</option>
-            <option value="Full time jo">Full time job</option>
-            <option value="Full time learner">Full time learner</option>
-            <option value="Prefer not to say">Prefer not to say</option>
-         </select>
-         
-         <label for="checkbox">Chose wisly</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> Lorem, ipsum 1</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> Lorem, ipsum 2</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> Onsdasd e</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> Onasdasde</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> On asd asde</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> O asdasne</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> Od adsasne</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> Odasd ane</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox"> Osdasdne</label>
-          <label for="checkbox"><input type="checkbox" name="checkbox">asdasdasd  </label>
+            <input type="radio" name="options"> 
+            <input type="radio" name="options"> Definitely
+            <input type="radio" name="options"> Maybe
+
+            <label for="checkbox">Chose wisly</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> Lorem, ipsum 1</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> Lorem, ipsum 2</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> Onsdasd e</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> Onasdasde</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> On asd asde</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> O asdasne</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> Od adsasne</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> Odasd ane</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox"> Osdasdne</label>
+            <label for="checkbox"><input type="checkbox" name="checkbox">asdasdasd </label>
 
 
-          <textarea name="textarea" id="texto" rows="10" cols="50" placeholder="asda"></textarea>
+            <textarea name="textarea" id="texto" rows="10" cols="50" placeholder="asda"></textarea>
 
 
-        <input type="submit" value="Submit" id="submit">
+            <input type="submit" value="Submit" id="submit">
 
-    </form>
-
-</div>
+        </form>
+    </div>
 </body>
 
 </html>
+
+<!--   
+
+UUser Story #1: I can see a title with id="title" in H1 sized text.
+
+User Story #2: I can see a short explanation with id="description" in P sized text.
+
+User Story #3: I can see a form with id="survey-form".
+
+User Story #4: Inside the form element, I am required to enter my name in a field with id="name".
+
+User Story #5: Inside the form element, I am required to enter an email in a field with id="email".
+
+User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
+
+User Story #7: Inside the form, I can enter a number in a field with id="number".
+
+User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.
+
+User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.
+
+User Story #10: For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".
+
+User Story #11: For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
+
+User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".
+
+User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.
+
+User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
+
+User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
+
+User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs. -->

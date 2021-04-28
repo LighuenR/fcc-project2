@@ -1,22 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background:linear-gradient(0deg, rgba(206, 206, 206, 0.493), rgba(216, 216, 216, 0.493)), url(https://image.freepik.com/foto-gratis/grupo-jovenes-trabajando-juntos_23-2148499844.jpg);
-
-} 
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-form {
-    background: #f3f3f3;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.container {
-    display: flex;
+.container1 {
+    background: black;
+    width: 40vw;
 }
