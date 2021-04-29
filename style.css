@@ -1,4 +1,26 @@
+
 .container1 {
     background: black;
-    width: 40vw;
+    width: 35vw;
+    height: 80vw;
+    display: flex;
+    opacity: 0.5;
+    color: #f3f3f3;
+    justify-content: space-between;
+
+}
+#survey-form {
+    display: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+ 
+h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
 }
