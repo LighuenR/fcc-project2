@@ -1,14 +1,11 @@
 
-.container1 {
-    background: black;
+.form-container {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
     width: 35vw;
-    height: 80vw;
-    display: flex;
-    opacity: 0.5;
+    height: 100vh;
     color: #f3f3f3;
-    align-items: center;
-    justify-content: center;
-
+    text-align: center;
 }
 .survey-form {
     display: block;
@@ -16,7 +13,12 @@
     text-align: center;
     padding: 30x;
     margin: 10px auto;
+}
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {font-size: 40px;}
@@ -47,7 +49,6 @@ select {
  }
 
  textarea {
-    width: 630px;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
